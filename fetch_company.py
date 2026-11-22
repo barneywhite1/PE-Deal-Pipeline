@@ -7,7 +7,8 @@ load_dotenv()
 api_key = os.getenv("CH_API_KEY")
 
 # The company to look up (00445790 is Tesco PLC)
-company_number = "00445790"
+company_number = "01672070" \
+""
 url = f"https://api.company-information.service.gov.uk/company/{company_number}"
 
 # Ask Companies House for the data
