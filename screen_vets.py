@@ -28,4 +28,4 @@ print(f"After filter 3 (obvious non-vets removed): {len(df)}")
 
 #Save the screened list
 df.to_csv("vets_screend.csv", index=False)
-print("SAved to vets_screened.csv")
+print("Saved to vets_screened.csv")
